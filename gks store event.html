@@ -1,215 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- META TAGS -->
   <meta charset="UTF-8">
-  <meta name="description" content="HTML Media, Semantic, Meta and Script Tags Demo">
-  <meta name="keywords" content="HTML, Media Tags, Semantic Tags">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <title>GKS ACADAMY</title>
-    <link rel="icon" href="download (3).jpg">
-    
-
-
-
-  
+  <meta name="description" content="GKS Institute of Technology official demo website">
+  <title>GKS Academy</title>
+  <link rel="icon" href="download (3).jpg">
 
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       background-color: black;
+      color: white;
       padding: 20px;
     }
-    header, nav, section, article, footer {
+    header, nav, section, footer {
       background: white;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
+      color: black;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    img {
+      border-radius: 10px;
+      margin: 20px 0;
     }
     button {
-      padding: 5px 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
     }
   </style>
 </head>
 
-<body style="color:white">
+<body>
+
+<header id="home">
+  <h1>GKS Institute of Technology 🚀</h1>
+  <p>A leading center for quality technical education and innovation.</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#media">Media</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We provide industry-oriented courses designed to build strong technical and practical skills.</p>
+</section>
+
+<section id="media">
+  <h2>Campus Highlights</h2>
   <center>
-  <u>
-    <header>
-    <h1 id="heading">GKS institute of tecnolagy 🚀</h1>
-  </header>
-</center>
-    <h1>GKS Institute of Technology is a leading center for quality technical education and innovation.</h1>
-</u>
-    <p>We provide industry-oriented courses designed to build strong technical and practical skills. </p>          
-    <br>           <!-- Line break -->
-    <hr>
-    <u>         <!-- Horizontal line -->
-    <b>  TamilRockers is a torrent website based in India which facilitates the distribution of copyrighted material, including television shows, movies, music and videos.[1][2] The site allows visitors to search for and download copyrighted material with the help of magnet links and torrent files, which facilitate peer-to-peer file sharing. It also operates multiple Telegram channels and groups with thousands of subscribers.[3] TamilRockers is the tenth most popular torrent site in TorrentFreak's Top 10 Most Popular Torrent Sites of 2020 list.[4]
+    <img src="download (4).jpg" width="400">
+    <p>Experienced faculty with real-world knowledge.</p>
 
-In India, ISPs have been ordered to block access to the website.[5][6][7] The website continues operation by switching to a series of new web addresses.[8] Aside from its traditional list of pirate sites, apps, and hosting providers, the movie industry group Motion Picture Association (MPA) lists TamilRockers as one of the notorious markets.[9][10]
+    <img src="download (5).jpg" width="400">
+    <p>Modern laboratories and facilities.</p>
 
-History
-TamilRock
-</b> <br>  </u>    <br><br><br>       <!-- Bold -->
-    <i>References
- tertainment giants back in focus as Disney Star files FIR on leaked shows". ThePrint. 3 June 2022. Archived from the original on 25 June 2022. Retrieved 25 June 2022.
- "Premgi's new film titled after the infamous piracy movie website - Times of India". The Times of India. 15 June 2021. Archived from the original on 7 July 2022. Retrieved 25 June 2022.
- "Tamil Rockers Movie: Showtimes, Review, Trailer, Posters, News & Videos | eTimes", The Times of India, archived from the original on 25 June 2022, retrieved 25 June 2022
- Desk, Online. "Arun Vijay to star in Arivazhagan's web series 'Tamil Rockerz'". DT next. Archived from the original on 3 July 2022. Retrieved 3 July 2022. {{cite web}}: |last= has generic name (help)
- "Arun Vijay's Tamil Rockerz first look out". Cinema Express. 2 July 2022. Archived from the original on 2 July 2022. Retrieved 3 July 2022.
-</i>  <br> <br>  <br>         <!-- Italic -->
-               <!-- Underline -->
-    <small>References
- tertainment giants back in focus as Disney Star files FIR on leaked shows". ThePrint. 3 June 2022. Archived from the original on 25 June 2022. Retrieved 25 June 2022.
- "Premgi's new film titled after the infamous piracy movie website - Times of India". The Times of India. 15 June 2021. Archived from the original on 7 July 2022. Retrieved 25 June 2022.
- "Tamil Rockers Movie: Showtimes, Review, Trailer, Posters, News & Videos | eTimes", The Times of India, archived from the original on 25 June 2022, retrieved 25 June 2022
- Desk, Online. "Arun Vijay to star in Arivazhagan's web series 'Tamil Rockerz'". DT next. Archived from the original on 3 July 2022. Retrieved 3 July 2022. {{cite web}}: |last= has generic name (help)
- "Arun Vijay's Tamil Rockerz first look out". Cinema Express. </small>   <br> <br> <br>      <!-- Small text -->
-    
-<br>
-<br>
-<br>
+    <img src="download (6).jpg" width="400">
+    <p>Skill development and career growth focus.</p>
+  </center>
+</section>
 
+<section>
+  <h2>Student Registration</h2>
+  <form>
+    <label>Name:</label><br>
+    <input type="text" placeholder="Enter your name"><br><br>
 
-  <!-- SEMANTIC TAGS -->
-  <header>
-    <h1 id="heading">HTML Demo Page</h1>
-  </header>
+    <label>Age:</label><br>
+    <input type="number" placeholder="Enter your age"><br><br>
 
-  <nav>
-    Home | About | Contact
-  </nav>
+    <label>Department:</label><br>
+    <select>
+      <option>Python</option>
+      <option>Java</option>
+      <option>SQL</option>
+    </select><br><br>
 
-  <section>
-    <article>
-      <h2>Media Tags Example</h2>
-      <mark> gobalReferences
- tertainment giants back in focus as Disney Star files FIR on leaked shows". ThePrint. 3 June 2022. Archived from the original on 25 June 2022. Retrieved 25 June 2022.
- "Premgi's new film titled after the infamous piracy movie website - Times of India". The Times of India. 15 June 2021. Archived from the original on 7 July 2022. Retrieved 25 June 2022.
- "Tamil Rockers Movie: Showtimes, Review, Trailer, Posters, News & Videos | eTimes", The Times of India, archived from the original on 25 June 2022, retrieved 25 June 2022
- Desk, Online. "Arun Vijay to star in Arivazhagan's web series 'Tamil Rockerz'". DT next. Archived from the original on 3 July 2022. Retrieved 3 July 2022. {{cite web}}: |last= has generic name (help)
- "Arun Vijay's Tamil Rockerz first look out". Cinema Express. </mark>        <!-- Highlight -->
-<br><br><br><br><br><br>
-      </article>
-  </section>
+    <input type="submit">
+    <input type="reset">
+  </form>
+</section>
 
+<section>
+  <h2>Media</h2>
+  <audio controls>
+    <source src="gnanakannan.ogg" type="audio/mpeg">
+  </audio><br><br>
 
-     
-
-
-
-   <CENTER>
-      <p width="1000" height="200">
-      <img src="download (4).jpg" alt="Sample Image"width="500" height="500"><br><br><br>
-       <p>Our experienced faculty guide students with real-world knowledge and hands-on training.</p>
-      <img src="download (5).jpg" width="500" height="500"><br><br><br> 
-       <p>The institute offers modern laboratories and advanced learning facilities.</p>
-      <img src="download (6).jpg" width="500" height="500">
-      <br><br>
-      <p>We focus on skill development, career growth, and overall personality development.</p>
-      <img src="download (7).jpg" width="500" height="500"><br> <br><br><br>
-      <p>GKS Institute of Technology supports students with internships and placement assistance.</p>
-      <img src="download (8).jpg" width="500" height="500"><br> <br><br><br> 
-      <p>Our curriculum is updated regularly to match current industry standards.</p>
-      <img src="download (9).jpg"width="500" height="500" ><br> <br><br>
-      <p>We encourage creativity, research, and problem-solving skills among students.</p>
-      <img src="download (10).jpg"width="500" height="500" ><br> <br><br> 
-      <P>Students learn in a friendly, supportive, and professional learning environment.</P>
-      <img src="download (11).jpg" width="500" height="500"><br> <br><br>
-      <p>Join GKS Institute of Technology and shape your future with confidence and success.</P><br><br><br>
-        <form>
-    <table>
-        <tr>
-            <td>NAME:</td> 
-            <td><input type="text" placeholder="Enter your name"></td>
-        </tr>
-        <tr></tr>
-            <td>AGE:</td>
-            <td><input type="number" placeholder="Enter your age"></td>
-        </tr>
-        <tr></tr>
-            <td>ADDRESS:</td>
-            <td><input type="text" placeholder="Enter your address"></td>
-        </tr>
-        <tr></tr>
-            <td>DEPARTMENT:</td>
-            <td>
-                <select>
-                    <option>python</option>
-                    <option>java</option>
-                    <option>sql</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td><input type="submit"></td>
-            <td><input type="reset"></td>
-        </tr>
-    </table>
-</form><br>
-<br><br><br>
-      <a href="https://youtu.be/UF5dldjEXj4?si=GLTrGA03t5iQTqTV">WATCH NOW</a><br>
-
-      <!-- AUDIO -->
-      <audio controls>
-        <source src="gnanakannan.ogg" type="audio/mpeg">
-      </audio>
-      <br><br><br><br><br><br>
-
-      <!-- VIDEO -->
-      <video width="1000" controls>
-        <source src="WhatsApp Video 2025-12-19 at 7.53.33 PM.mp4" type="video/mp4">
-      </video>
-    
-  <!-- BUTTON FOR SCRIPT -->
-   </center>
-
-  <h1 id="myHeading">THANK YOU FOR WATCHING IN MY WEBSITE</h1>
-
-  <button onclick="changeColor()">CLICK ME</button>
-
-  <script>
-  function changeColor() {
-    let colors = ["red", "blue", "green", "orange"];
-    let randomColor = colors[Math.floor(Math.random() * colors.length)];
-    document.getElementById("myHeading").style.color = randomColor;
-  }
-</script>
-</CENTER>
-
-  <footer>
-    <p>© 2025 HTML Learning</p>
-  </footer>
-
-  <!-- SCRIPT TAG -->
-  
-
-<center>
-    <a href="index.html">HOME</a><br><br><br><br>
-    <a href="https://www.instagram.com/">INSTAGRAM |</a>
-    <a href="https://www.youtube.com/@gnanakannank80">YOUTUBE </a>
-    </center>
-
-
-</body>
-</html>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <video width="
